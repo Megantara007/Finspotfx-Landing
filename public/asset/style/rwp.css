@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1000px){
+  .sidebar{
+    left:-100%;
+    display: flex;
+  }
+
+  .side-on{
+    left:0;
+    display: flex;
+    transition: 0.3s;
+  }
+
+  main .offer .in-offer{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  main .offer .in-offer .box-offer{
+    width:300px;
+  }
+
+  bar{
+    display: inline-block;
+    position: relative;
+  }
+
+  header .navbar ul li{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:850px){
+  main .information .in-information{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  main .information .in-information .l-i{
+    margin: 30px 0 0 0;
+    width:100%
+  }
+  main .information .in-information .r-i{
+    width:100%
+  }
+
+  main .last-item .in-last-item{
+    flex-direction: column;
+  }
+
+  main .last-item .in-last-item .l-l-i{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  main .last-item .in-last-item .l-l-i img{
+    margin:0;
+  }
+  main .last-item .in-last-item .l-l-i h4{
+    margin:40px 0 40px 0;
+  }
+  main .last-item .in-last-item .l-l-i a{
+    margin:0;
+  }
+
+  main .last-item .in-last-item .r-l-i{
+    width: 100%;
+  }
+
+  main .wcu .container{
+    width:90%;
+    height:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .wcu .in-wcu{
+    width:100%;
+    margin: 50px 0 0 0;
+  }
+
+  main .wcu .in-wcu h2{
+    text-align: center;
+  }
+  main .wcu img{
+    width:80%;
+  }
+
+  header .jumbotron h1{
+    width:100%;
+    font-size:35px;
+    line-height: 40px;
+  }
+  header .jumbotron p{
+    width:90%;
+  }
+
+  timeline .timeline .container .left-timeline{
+    width:40%;
+    margin:20px 0 20px 0;
+  }
+  timeline .timeline .container .left-timeline h1{
+    font-size: 25px;
+  }
+  timeline .timeline .container .left-timeline h2{
+    font-size: 20px;
+  }
+  timeline .timeline .container .left-timeline p{
+    font-size: 14px;
+  }
+  timeline .timeline .container::before{
+    height: 10px;
+    width: 10px;
+  }
+  timeline .timeline .container:last-child::before{
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width:650px){
+  main .offer .in-offer .box-offer{
+    width:300px;
+  }
+  portal form{
+    width:80%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  header .navbar img{
+    width:150px;
+    height: auto;
+  }
+  .about{
+    background: none;
+  }
+  .home{
+    background: none;
+  }
+  .home, .about{
+    height: max-content;
+  }
+  header .jumbotron h1{
+    width:100%;
+    font-size:35px;
+    line-height: 40px;
+  }
+  header .jumbotron p{
+    width:100%;
+  }
+
+  .video{
+    margin:50px 0 0 0;
+  }
+}
